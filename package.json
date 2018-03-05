@@ -1,0 +1,28 @@
+{
+  "name": "expressHomework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exp.js",
+  "engines": {
+    "node":"8.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exp.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-jones311/expressHomework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-jones311/expressHomework/issues"
+  },
+  "homepage": "https://github.com/matt-jones311/expressHomework#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
