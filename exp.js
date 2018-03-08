@@ -25,8 +25,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 
 // Add the application routes
-require(path.join(__dirname, './app/routing/apiRoutes'))(app);
-require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+require('./apps/routing/apiRoutes')(app);
+require('./apps/routing/htmlRoutes')(app);
 
 // Start listening on PORT
 app.listen(PORT, function() {
